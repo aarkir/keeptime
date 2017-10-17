@@ -1,29 +1,31 @@
 #!/usr/bin/env node
 
-"use strict";
+(function() {
+  "use strict";
 
-const keeptime = require("../lib/keeptime");
-const argv = require('minimist' (process.argv.slice(2)));
+  var keeptime = require("../lib/keeptime");
+  var argv = require('minimist' (process.argv.slice(2)));
 
-// _ is the list of unassociated args under minimist
-if (argv._.length) {
-  switch (argv._[0]) {
-    case "help":
-      break;
-    case "starttimer":
-      break;
-    case "endtimer":
-      break;
-    case "addback":
-      break;
-    case "today":
-      break;
-    case "total":
-      break;
-    default:
-      break;
+  // _ is the list of unassociated args under minimist
+  if (argv._.length) {
+    switch (argv._[0]) {
+      case "help":
+        break;
+      case "starttimer":
+        break;
+      case "endtimer":
+        break;
+      case "addback":
+        break;
+      case "today":
+        break;
+      case "total":
+        break;
+      default:
+        break;
+    }
+  } else {
+    console.error("No file passed in!");
   }
-} else {
-  console.error("No file passed in!");
 
-}
+})();

@@ -5,7 +5,8 @@
   "homepage": "https://github.com/aarkir/keeptime#readme",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "npm run jshint && mocha --reporter spec",
+    "jshint": "jshint lib/*.js test/*.js"
   },
   "bin": {
     "keeptime": "./bin/keeptime"
@@ -21,6 +22,7 @@
     "minimist": "^1.2.0"
   },
   "devDependencies": {
+    "jshint": "^2.9.5",
     "mocha": "^4.0.1",
     "should": "^13.1.2"
   },
