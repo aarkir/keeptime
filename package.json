@@ -1,0 +1,34 @@
+{
+  "name": "keeptime",
+  "version": "1.0.0",
+  "description": "Hierarchically tracks time and displays output",
+  "homepage": "https://github.com/aarkir/keeptime#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "bin": {
+    "keeptime": "./bin/keeptime"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarkir/keeptime.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aarkir/keeptime/issues"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "should": "^13.1.2"
+  },
+  "keywords": [
+    "time-tracking",
+    "analytics",
+    "cli"
+  ],
+  "author": "Aaron Kirtland",
+  "license": "MIT"
+}
