@@ -7,7 +7,9 @@
     require("../lib/keeptime");
 
   describe("keeptime general tests", function() {
-    console.log(keeptime.today());
+    keeptime.starttimer();
+    keeptime.stoptimer();
+    keeptime.display();
   });
 
 })();

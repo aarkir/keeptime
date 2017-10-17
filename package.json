@@ -19,7 +19,9 @@
     "url": "https://github.com/aarkir/keeptime/issues"
   },
   "dependencies": {
-    "minimist": "^1.2.0"
+    "data-store": "^1.0.0",
+    "minimist": "^1.2.0",
+    "prettyjson": "^1.2.1"
   },
   "devDependencies": {
     "jshint": "^2.9.5",
