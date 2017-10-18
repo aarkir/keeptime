@@ -1,42 +1,65 @@
 {
   "social": {
-    "friends": [{
-      "start": "2017-10-16T15:50:00.000Z",
-      "end": "2017-10-16T17:14:00.000Z",
-      "description": "visit aerial"
-    }]
+    "friends": [
+      {
+        "start": "2017-10-16T15:50:00.000Z",
+        "stop": "2017-10-16T17:14:00.000Z",
+        "msg": "visit aerial"
+      },
+      {
+        "start": "2017-10-18T17:02:05.351Z",
+        "stop": "2017-10-18T17:02:05.353Z",
+        "msg": "example"
+      },
+      {
+        "start": "2017-10-18T17:03:37.355Z",
+        "stop": "2017-10-18T17:03:37.357Z",
+        "msg": "example"
+      }
+    ]
   },
-  "computer science": {
+  "computer-science": {
     "node.js": {},
     "opengl": {
       "learnopengl.com": {
-        "creating a window": [],
-        "hello triangle": [{
+        "creating-a-window": [],
+        "hello-triangle": [
+          {
             "start": "2017-10-16T14:54:00.000Z",
-            "end": "2017-10-16T14:57:00.000Z",
-            "description": ""
+            "stop": "2017-10-16T14:57:00.000Z",
+            "msg": ""
           },
           {
             "start": "2017-10-16T15:00:00.000Z",
-            "end": "2017-10-16T15:11:00.000Z",
-            "description": ""
+            "stop": "2017-10-16T15:11:00.000Z",
+            "msg": ""
           },
           {
             "start": "2017-10-16T15:16:00.000Z",
-            "end": "2017-10-16T15:39:00.000Z",
-            "description": ""
+            "stop": "2017-10-16T15:39:00.000Z",
+            "msg": ""
+          },
+          {
+            "start": "2017-10-16T14:54:00.000Z",
+            "stop": "2017-10-16T14:57:00.000Z",
+            "msg": ""
+          },
+          {
+            "start": "2017-10-16T14:54:00.000Z",
+            "stop": "2017-10-16T14:57:00.000Z",
+            "msg": ""
+          },
+          {
+            "start": "2017-10-16T14:54:00.000Z",
+            "stop": "2017-10-16T14:57:00.000Z",
+            "msg": ""
           }
         ]
       }
     },
     "ctf": {
-      "pico": {
-
-
-      }
+      "pico": {}
     }
   },
-  "physics": {
-
-  }
+  "physics": {}
 }

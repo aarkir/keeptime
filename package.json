@@ -20,13 +20,11 @@
   },
   "dependencies": {
     "data-store": "^1.0.0",
-    "minimist": "^1.2.0",
     "prettyjson": "^1.2.1"
   },
   "devDependencies": {
     "jshint": "^2.9.5",
-    "mocha": "^4.0.1",
-    "should": "^13.1.2"
+    "mocha": "^4.0.1"
   },
   "keywords": [
     "time-tracking",
