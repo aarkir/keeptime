@@ -7,11 +7,11 @@
     require("../lib/keeptime");
 
   describe("keeptime general tests", function() {
+    // keeptime.init();
     keeptime.start("books/the-jungle");
-    keeptime.cancel();
+    // keeptime.cancel();
     keeptime.stop("example message");
-    keeptime.addDir("books", "hitchhikers");
-    keeptime.display();
+    // keeptime.display();
   });
 
 })();

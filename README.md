@@ -1,27 +1,27 @@
 ## keeptime
 # A hierarchical time manager for Bash in Node.js
 
-This is a rather convoluted system of time management and task organization based around an atom called a "session". These sessions are part of tasks, which are part of tags. This structure enabled interesting things like to-do lists and tracking time analytics for any arbitrary tag.
+This is a rather convoluted system of time management and task organization based around an atom called a "session". These sessions are part of tasks, which are atoms of tags. This structure enabled interesting things like to-do lists and tracking time analytics for any arbitrary tag.
 
 ## TODO
 # Necessary
 - [x] Start Time
 - [x] Cancel Time
 - [x] Stop Time
-- [x] Display All
+- [ ] Display All
 - [x] Add Session
-- [] Add Tag
-- [] Show Times in Tag
-- [] Remove Session
-- [] Remove Tag
-- [] Total Time in Tag
-- [] Run from Bash
-- [] Autocomplete
+- [ ] Add Tag
+- [ ] Show Times in Tag
+- [ ] Remove Session
+- [ ] Remove Tag
+- [ ] Total Time in Tag
+- [ ] Run from Bash
+- [ ] Autocomplete
 # Optional
-- [] Add Include
-- [] Remove Include
-- [] Add Sequence
-- [] Remove Sequence
+- [ ] Add Include
+- [ ] Remove Include
+- [ ] Add Sequence
+- [ ] Remove Sequence
 
 JSON Structure:
 Reserved words: "include", "sequence"
@@ -97,3 +97,28 @@ Example file:
   }
 }
 ```
+
+# New format thoughts
+Same indictes improvements in efficiency by separating sessions from tasks by hashing
+"AddSession: Same
+AddTask: Same
+AddTag: Same
+ViewTag: Same
+ViewTimeWithinTag: Same
+ViewTimeOverall: before: Search every tag;now: search sessions
+DeleteSession: before: use array indices ? now : display under tag or time period,
+then choose has to delete
+Delete task: same
+delete tag: same
+
+Separation of sessions from tasks allows sorting by time
+while maintaining fast lookup.It also allow convenient deletion.
+AddSession: Add hashed session w / task element,
+add link to task list
+AddTask: Add to tag
+AddTag: Add tag
+Today: show sessions today.Log(n)
+Sessions over a time period: now,
+no need to search entire space.Search over sessions.Log(n)
+Tag: Same as before
+Session tag: ": {}
