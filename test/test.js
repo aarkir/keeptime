@@ -7,11 +7,10 @@
     require("../lib/keeptime");
 
   describe("keeptime general tests", function() {
-    keeptime.start("social/friends");
-    keeptime.stop("example");
-    keeptime.display();
-    keeptime.add("computer-science/opengl/learnopengl.com/hello-triangle",
-      "2017-10-16T14:54:00.000Z", "2017-10-16T14:57:00.000Z", "");
+    keeptime.start("books/the-jungle");
+    keeptime.cancel();
+    keeptime.stop("example message");
+    keeptime.addDir("books", "hitchhikers");
     keeptime.display();
   });
 
