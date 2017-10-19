@@ -8,10 +8,10 @@
 
   describe("keeptime general tests", function() {
     // keeptime.init();
-    keeptime.start("books/the-jungle");
+    // keeptime.start("books/the-jungle");
     // keeptime.cancel();
-    keeptime.stop("example message");
-    // keeptime.display();
+    // keeptime.stop("example message");
+    // keeptime.addTag("chinese360", "lessons");
   });
 
 })();
