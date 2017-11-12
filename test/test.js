@@ -11,7 +11,10 @@
     // keeptime.start("books/the-jungle");
     // keeptime.cancel();
     // keeptime.stop("example message");
-    // keeptime.addTag("chinese360", "lessons");
+    // keeptime.addTag("chinese360/lessons");
+    // keeptime.delS(0);
+    // keeptime.delT("chinese360/lessons");
+    keeptime.showT("books");
   });
 
 })();

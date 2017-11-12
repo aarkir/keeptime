@@ -11,8 +11,8 @@ This is a rather convoluted system of time management and task organization base
 - [ ] Display All
 - [x] Add Session
 - [x] Add Tag
-- [ ] Del Session path->tag
-- [ ] Del Tag
+- [x] Del Session path->tag
+- [x] Del Tag
 - [ ] Show Session path->tag
 - [ ] Show Tag
 - [ ] Run from Bash
